@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextRow should render as expected 1`] = `
+<div
+  className="textrow"
+>
+  <div
+    className="textrow__key"
+  >
+    <input
+      id="key"
+      onChange={[Function]}
+      placeholder="Enter descprition..."
+      value="Test"
+    />
+  </div>
+  <div
+    className="textrow__value"
+  >
+    <input
+      id="value"
+      onChange={[Function]}
+      placeholder="Enter content..."
+      value="test"
+    />
+  </div>
+</div>
+`;

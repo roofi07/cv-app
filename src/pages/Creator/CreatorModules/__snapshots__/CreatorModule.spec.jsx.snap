@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreatorModule should render as expected 1`] = `
+<div
+  className="creator-module"
+>
+  <TextRow
+    data={
+      Immutable.Map {
+        key: "Test",
+        value: "test",
+      }
+    }
+    onUpdate={[Function]}
+  />
+  <button
+    className="creator-module__remove-btn"
+    onClick={[Function]}
+    title="Remove"
+  >
+    <i
+      className="fa fa-ban"
+    />
+  </button>
+</div>
+`;

@@ -1,0 +1,31 @@
+.creator-module {
+  position: relative;
+  border: 1px dotted transparent;
+
+  &:hover {
+    border-color: #dedede;
+  }
+
+  &__remove-btn {
+    position: absolute;
+    top: -18px;
+    right: -18px;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    color: #e24d4d;
+    border-radius: 50%;
+    border: 0;
+    background-color: #f7f7f7;
+    cursor: pointer;
+    outline: 0;
+
+    &:hover {
+      background-color: #eee;
+    }
+
+    .creator-module:not(:hover) & {
+      opacity: 0;
+    }
+  }
+}

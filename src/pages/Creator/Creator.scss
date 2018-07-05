@@ -1,0 +1,75 @@
+.creator {
+  padding-right: 300px;
+
+  &__cv {
+    width: 1024px;
+    min-height: 1000px;
+    margin: 40px auto;
+    padding: 80px;
+    border-left: 3px solid #5aa4ff;
+    background: #fff;
+  }
+
+  &__cv-empty {
+    padding: 40px;
+    text-align: center;
+    color: #999;
+  }
+
+  &__tools {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+    padding: 20px;
+    background-color: #ddd;
+  }
+
+  &__actions {
+    text-align: right;
+  }
+
+  &__action-btn {
+    display: inline-block;
+    min-width: 80px;
+    margin: 10px 10px 0 0;
+    padding: 10px;
+    font-size: 12px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+
+    &:hover {
+      opacity: .8;
+    }
+
+    &--default {
+      background-color: #5aa4ff;      
+    }
+
+    &--secondary {
+      background-color: #aaa;      
+    }
+  }
+
+  &__tool-btn {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 14px 10px;
+    text-align: left;
+    background-color: #aaa;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #bbb;
+    }
+
+    i {
+      margin-right: 6px;
+    }
+  }
+}

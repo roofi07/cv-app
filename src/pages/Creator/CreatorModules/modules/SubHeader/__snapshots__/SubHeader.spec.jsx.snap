@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SubHeader should render as expected 1`] = `
+<div
+  className="subheader"
+>
+  <input
+    onChange={[Function]}
+    placeholder="Enter subheader..."
+    value="test"
+  />
+</div>
+`;

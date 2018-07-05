@@ -1,0 +1,38 @@
+.textrow {
+  display: flex;
+
+  &__key,
+  &__value {
+    padding: 4px;
+
+    input {
+      display: block;
+      width: 100%;
+      padding: 6px;
+      border: 0;
+      border: 1px solid transparent;
+
+      &:focus {
+        outline: 0
+      }
+
+      &:hover,
+      &:focus {
+        border-color: #dedede;        
+      }
+    }
+  }
+
+  &__key {
+    width: 200px;
+    text-align: right;
+
+    input {
+      text-align: right;
+    }
+  }
+
+  &__value {
+    flex: 1;
+  }
+}
