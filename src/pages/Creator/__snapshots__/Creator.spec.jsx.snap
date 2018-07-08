@@ -60,3 +60,64 @@ exports[`Creator should render as expected 1`] = `
   </div>
 </div>
 `;
+
+exports[`Creator should render as expected when modules list is empty 1`] = `
+<div
+  className="creator"
+>
+  <div
+    className="creator__cv"
+  >
+    <div
+      className="creator__cv-empty"
+    >
+      Add your first data row! You can choose one of them on right side.
+    </div>
+  </div>
+  <div
+    className="creator__tools"
+  >
+    <div
+      className="creator__actions"
+    >
+      <button
+        className="creator__action-btn creator__action-btn--default"
+        onClick={[Function]}
+      >
+        Save
+      </button>
+      <button
+        className="creator__action-btn creator__action-btn--secondary"
+        onClick={[Function]}
+      >
+        Reset
+      </button>
+    </div>
+    <h3>
+      Tools
+    </h3>
+    <button
+      className="creator__tool-btn"
+      key="SUB_HEADER"
+      onClick={[Function]}
+    >
+      <i
+        className="fa fa-plus"
+      />
+       Add 
+      SubHeader
+    </button>
+    <button
+      className="creator__tool-btn"
+      key="TEXT_ROW"
+      onClick={[Function]}
+    >
+      <i
+        className="fa fa-plus"
+      />
+       Add 
+      TextRow
+    </button>
+  </div>
+</div>
+`;
