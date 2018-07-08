@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import ImmutablePropTypes from 'react-immutable-proptypes'
-import { SubHeader, TextRow, Modules } from './modules'
+import { SubHeader, TextRow, ModuleTypes } from './modules'
 import './CreatorModule.scss'
 
 
@@ -23,9 +23,9 @@ export class CreatorModule extends React.Component {
     const { moduleData } = this.props
 
     switch (moduleData.get('type')) {
-      case Modules.TEXT_ROW:
+      case ModuleTypes.TEXT_ROW:
         return <TextRow data={moduleData.get('data')} onUpdate={this.updateData} />
-      case Modules.SUB_HEADER:
+      case ModuleTypes.SUB_HEADER:
         return <SubHeader data={moduleData.get('data')} onUpdate={this.updateData} />
       default:
         return null

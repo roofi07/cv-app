@@ -1,7 +1,7 @@
 import { TextRow } from './TextRow/TextRow'
 import { SubHeader } from './SubHeader/SubHeader'
 
-const Modules = {
+const ModuleTypes = {
   SUB_HEADER: 'SubHeader',
   TEXT_ROW: 'TextRow',
 }
@@ -9,5 +9,5 @@ const Modules = {
 export {
   SubHeader,
   TextRow,
-  Modules,
+  ModuleTypes,
 }

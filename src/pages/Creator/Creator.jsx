@@ -6,7 +6,7 @@ import Immutable from 'immutable'
 import ImmutablePropTypes from 'react-immutable-proptypes'
 import './Creator.scss'
 import CreatorModule from './CreatorModules/CreatorModule'
-import { Modules } from './CreatorModules/modules'
+import { ModuleTypes } from './CreatorModules/modules'
 
 export class Creator extends React.Component {
   static propTypes = {
@@ -107,9 +107,9 @@ export class Creator extends React.Component {
             <button className="creator__action-btn creator__action-btn--secondary" onClick={this.reset}>Reset</button>
           </div>
           <h3>Tools</h3>
-          {Object.keys(Modules).map(a => (
-            <button className="creator__tool-btn" key={a} onClick={() => this.addModule(Modules[a])}>
-              <i className="fa fa-plus" /> Add {Modules[a]}
+          {Object.keys(ModuleTypes).map(a => (
+            <button className="creator__tool-btn" key={a} onClick={() => this.addModule(ModuleTypes[a])}>
+              <i className="fa fa-plus" /> Add {ModuleTypes[a]}
             </button>
           ))}
         </div>
