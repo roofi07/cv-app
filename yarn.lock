@@ -6329,9 +6329,9 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-app-rewire-scss@^1.0.17:
-  version "1.0.17"
-  resolved "https://registry.yarnpkg.com/react-app-rewire-scss/-/react-app-rewire-scss-1.0.17.tgz#c62b56346e2325743ff233b4309205c6c046db52"
+react-app-rewire-scss@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/react-app-rewire-scss/-/react-app-rewire-scss-1.0.2.tgz#28af6da9455f061f827f5d6da529348a88276602"
   dependencies:
     node-sass "^4.9.0"
     sass-loader "^7.0.3"
